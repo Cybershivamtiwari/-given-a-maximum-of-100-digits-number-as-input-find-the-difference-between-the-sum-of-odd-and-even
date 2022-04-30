@@ -1,0 +1,9 @@
+num=input("enter the number:")
+esum=0
+osum=0
+for i in range(0,len(num)):
+    if i%2==0:
+        esum=esum+int(num[i])
+    else:
+        osum=osum+int(num[i])
+print(int(abs(esum-osum)))
